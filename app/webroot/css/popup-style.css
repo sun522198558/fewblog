@@ -1,0 +1,281 @@
+/*=======================================
+CSS FOR PERMALINK PAGE
+TIMELINE TUMBLR THEME - by Tofuthemes  
+(http://tofuthemes.com)
+=======================================*/
+
+#popupPages {
+	display: none;
+	position: fixed;
+	_position: absolute; /* hack for internet explorer 6*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2000;
+}
+#popupBG {
+	position: fixed;
+	_position: absolute; /* hack for internet explorer 6*/
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.9;
+	filter:alpha(opacity=80); /* for IE */
+	z-index: 1;
+}
+#permalink-container {
+	position: relative;
+	width: 820px;
+	min-height: 400px;
+	margin: 60px auto;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	z-index: 2;
+}
+#permalink-post {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 500px;
+	min-height: 500px;
+	margin: 0;
+	padding: 15px;
+	background: #ffffff;
+	-webkit-border-radius: 3px 0 3px 3px;
+	-khtml-border-radius: 3px 0 3px 3px;
+	-moz-border-radius: 3px 0 3px 3px;
+	border-radius: 3px 0 3px 3px;
+}
+#sidebar-post {
+	position:;
+	position: absolute;
+	float: right;
+	top: 0;
+	right: 0;
+	width: 290px;
+	height: 400px;
+	z-index: 100;
+}
+#sidebar {
+	position: fixed;
+	margin: 0;
+	width: 289px;
+	min-height: 400px;
+	background: #e8ecef;
+	border-left: 1px solid #d6dce1;
+	-webkit-border-radius: 0 3px 3px 0;
+	-khtml-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+	z-index: 100;
+}
+#popupClose {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/5EElyc4jt/close-btn.png') no-repeat left top;
+	z-index: 200;
+}
+	#popupClose:hover {
+		background: url('http://static.tumblr.com/bygdzhm/5EElyc4jt/close-btn.png') no-repeat left bottom;
+	}
+
+.navigation-post {
+	position: fixed;
+	width: 820px;
+	float: left;
+}
+.navigation-post a.older {
+	position: absolute;
+	top: 160px;
+	left: -60px;
+	width: 42px;
+	height: 42px;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/tJGlyc4lv/btn-older.png') no-repeat left top;
+}
+	.navigation-post a.older:hover {
+		background: url('http://static.tumblr.com/bygdzhm/tJGlyc4lv/btn-older.png') no-repeat left bottom;
+	}
+.navigation-post a.newer {
+	position: absolute;
+	top: 160px;
+	right: -60px;
+	width: 42px;
+	height: 42px;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/tkolyc4my/btn-newer.png') no-repeat left top;
+	z-index: 1000;
+}
+	.navigation-post a.newer:hover {
+		background: url('http://static.tumblr.com/bygdzhm/tkolyc4my/btn-newer.png') no-repeat left bottom;
+	}
+
+
+#sidebar ul.sidebar-lists {
+	position: relative;
+	overflow: hidden;
+	display: inline;
+	width: 260px;
+	margin-top: 40px;
+	margin-left: 15px;
+	padding: 0;
+	float: left;
+}
+#sidebar li {
+	list-style: none;
+	float: left;
+	width: 260px;
+	margin: 0;
+	font-size: 12px;
+	font-family: 'ArmataRegular';
+	line-height: 40px;
+	color: #5c6266;
+	background: url('http://static.tumblr.com/bygdzhm/00Vlyc4s4/sidebar-divider.png') repeat-x left bottom;
+}
+#sidebar li span.icon {
+	width: 25px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+}
+#sidebar ul.sidebar-lists li span.icon-clock {
+	width: 25px;
+	height: 30px;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/IjZlyc4tg/icon-timeclock.png') no-repeat center center;
+}
+#sidebar ul.sidebar-lists li span.icon-notes {
+	width: 25px;
+	height: 30px;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/Xmqlyc4ug/icon-notes.png') no-repeat center center;
+}
+#sidebar ul.sidebar-lists li span.icon-reblog {
+	width: 25px;
+	height: 30px;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/YH0lyc4vf/icon-reblog.png') no-repeat center center;
+}
+#sidebar ul.sidebar-lists li span.icon-permalink {
+	width: 25px;
+	height: 30px;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/AhTlyc4w7/icon-permalink.png') no-repeat center center;
+}
+#sidebar ul.sidebar-lists li span.icon-source {
+	width: 25px;
+	height: 30px;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/Irglyc4x4/icon-reblogroot.png') no-repeat center center;
+}
+#sidebar ul.sidebar-lists li span.icon-tags {
+	width: 25px;
+	height: 30px;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/CZ7lyc4y0/icon-tags.png') no-repeat center center;
+}
+#sidebar li a {
+	color: #5c6266;
+}
+	#sidebar li a:hover {
+		color: #4785d5;
+	}
+#sidebar ul.tagged {
+	position: relative;
+	display: inline;	
+	width: 260px;
+	margin-top: 0px;
+	margin-left: 15px;
+	padding: 0;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/00Vlyc4s4/sidebar-divider.png') repeat-x left bottom;
+}
+#sidebar li.taglist {
+	list-style: none;
+	float: left;
+	width: 205px;
+	margin: 0;
+	padding-bottom: 10px;
+	font-size: 12px;
+	font-family: 'ArmataRegular';
+	line-height: 20px;
+	color: #5c6266;
+	background: none;
+}
+#sidebar ul.tagged span.icon-tags {
+	width: 25px;
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 10px;
+	float: left;
+	background: url('http://static.tumblr.com/bygdzhm/CZ7lyc4y0/icon-tags.png') no-repeat center center;
+}
+#sidebar li.taglist a {
+	margin-top: 10px;
+	margin-right: 5px;
+	line-height: 12px;
+	float: left;
+}
+	#sidebar li.taglist a:after {
+		content: ", ";
+	}
+	#sidebar li.taglist a:last-child:after {
+		content: " ";
+	}
+
+#sidebar .sharethis {
+	float: left;
+	width: 240px;
+	margin: 20px;
+}
+#sidebar .sharethis p {
+	color: #2d2e2f;
+	font-size: 12px;
+	font-family: 'ArmataRegular';
+}
+#sidebar .sharethis .shortURL {
+	width: 202px;
+	margin-top: 7px;
+	padding: 10px 20px 10px 20px;
+	line-height: 25px;
+	font-size: 11px;
+	color: #78848c;
+	background: url('http://static.tumblr.com/bygdzhm/K63lyc50j/bg-shorturl.png') no-repeat left top;
+	border: none;
+	outline: none;
+}
+
+.show-comments {
+	position: relative;
+	width: 500px;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	float: left;
+}
+.show-comments a.show-comment-btn {
+	position: relative;
+	width: 132px;
+	height: 30px;
+	margin-left: 185px;
+	background-image: url('http://static.tumblr.com/bygdzhm/m7Rlyc51f/btn-showcomment.png'); 
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+}
+	.show-comments a.show-comment-btn:hover {
+		background-position: left bottom;
+	}
+
